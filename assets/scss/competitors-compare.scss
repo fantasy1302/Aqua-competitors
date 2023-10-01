@@ -1,0 +1,135 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+
+.compare-container {
+  display: flex;
+  max-width: 926px;
+  margin: 0 auto;
+
+  @include break(575) {
+    flex-direction: column;
+  }
+}
+
+.compare-info {
+  flex-basis: 40%;
+}
+
+.compare-title-wrapper {
+  @include break(575) {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.compare-title {
+  @extend %font-2-1;
+  color: $haliteBlue;
+  margin-right: 70px;
+  width: 290px;
+
+  @include break(1199) {
+    margin-right: 77px;
+    width: 259px;
+  }
+
+  @include break(991) {
+    margin-right: 70px;
+    width: 208px;
+  }
+
+  @include break(767) {
+    margin-right: 32px;
+    width: 183px;
+  }
+
+  @include break(575) {
+    margin-right: 0px;
+    text-align: center;
+    width: 183px;
+  }
+}
+
+.compare-list-title {
+  @extend %font-70-2;
+  color: $brightBlue;
+  display: block;
+  margin-left: 20px;
+  width: 542px;
+
+  @include break(1199) {
+    width: 577px;
+  }
+
+  @include break(991) {
+    width: 373px;
+  }
+
+  @include break(767) {
+    width: 257px;
+  }
+
+  @include break(575) {
+    margin-left: 22px;
+  }
+}
+
+.compare-list-title-wrapper {
+  border-left: 3px solid $brightBlue;
+}
+
+.compare-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 20px;
+
+  @include break(575) {
+    margin: 0 0 0 22px;
+  }
+}
+
+.compare-list-item {
+  &:first-of-type {
+    padding-top: 16px;
+  }
+
+  &:not(:last-of-type) {
+    margin-bottom: 20px;
+  }
+
+  @include break(991) {
+    &:first-of-type {
+      padding-top: 14px;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 14px;
+    }
+  }
+
+  @include break(575) {
+    &:first-of-type {
+      padding-top: 20px;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 14px;
+    }
+  }
+
+  & a {
+    @extend %font-70-1;
+    color: $lynch;
+    text-decoration: none;
+  }
+}
+
+.compare-list-wrapper {
+  border-left: 1px solid #E0F1F8;
+  display: block;
+  margin-left: 1px;
+}

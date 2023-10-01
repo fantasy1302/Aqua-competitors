@@ -1,0 +1,564 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+.flex-cta-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 90px 0;
+}
+.flex-cta-title {
+    text-align: center;
+}
+.flex-cta-title h2 {
+    @extend %font-2-1; 
+    text-align: center;
+    color: $haliteBlue;
+    margin-bottom: 30px;
+}
+.flex-cta-title p {
+    @extend %font-10-1; 
+    text-align: center;
+    color: $haliteBlue;
+    margin: 0 auto;
+    width: 450px;
+}
+.flex-cta-btn {
+    margin-top: 40px;
+    text-align: center;
+}
+.flex-cta-btn a:first-of-type {
+    width: 270px;
+    height: 50px;
+    display: inline-block;
+    padding: 13px;
+    background-color: #FF7A68;
+    border-radius: 100px;
+    @extend %font-15-1; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.flex-cta-btn a:first-of-type:hover {
+    background-color: #FFF;
+    color: #FF7A68;
+}
+.flex-cta-btn a:last-of-type {
+    width: 270px;
+    height: 50px;
+    display: inline-block;
+    padding: 13px;
+    background-color: transparent;
+    border: 1px solid #FFF;
+    border-radius: 100px;
+    @extend %font-15-1; 
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-left: 20px;
+}
+.flex-cta-btn a:last-of-type:hover {
+    background-color: #FF7A68;
+    color: #FFF;
+    border-color: #FF7A68;
+}
+
+/*CTA bug tracking */
+
+
+.cta-bug-trackers-flex-section {
+    background-color: #2D9DCF;
+    text-align: center;
+}
+.cta-bug-trackers-flex-section-1 {
+    padding: 60px 0;
+    @include break(991){
+      padding: 50px 0;
+    }
+    @include break(767){
+      padding: 40px 0;
+    }
+    @include break(575){
+      padding: 34px 15px;
+    }
+}
+.cta-bug-trackers-flex-section-1 .cta-bug-trackers-flex-h2 {
+    margin-bottom: 50px;
+    
+    @include break(991){
+      margin-bottom: 30px;
+    }
+}
+.cta-bug-trackers-flex-section-1 .cta-bug-trackers-flex-h2 h2 {
+    @extend %font-2-1; 
+    color: $white;
+    
+    @include break(1199){
+      max-width: 735px;
+      margin: 0 auto;
+    }
+    @include break(530){
+      max-width: 100%;
+      margin: 0 auto;
+    }
+}
+.page-template-templ-price-page .cta-bug-trackers-flex-section-1 .cta-bug-trackers-flex-h2 h2{
+  max-width: 972px;
+  margin: 0 auto;
+  @include break(1199){
+    max-width: 838px;
+  }
+  @include break(991){
+    max-width: 525px;
+  }
+  @include break(767){
+    max-width: 376px;
+  }
+  @include break(575){
+    max-width: 100%;
+  }
+}
+
+
+.cta-bug-trackers-flex-section-1 .cta-bug-trackers-flex-btn a {
+    background-color: #FF7A68;
+    border-radius: 28px;
+    display: inline-block;
+    @extend %font-15-1; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    margin: 0 auto;
+    color: $white;
+    @include break(1199){
+      padding: 12px 18px;
+      min-width: 226px;
+    }
+    @include break(991){
+      padding: 12px 14px;
+      min-width: 188px;
+    }
+    @include break(767){
+      min-width: 228px;
+    }
+    @include break(575){
+      min-width: 275px;
+      padding: 9px 10px;
+    }
+}
+.cta-bug-trackers-flex-section-1 .cta-bug-trackers-flex-btn a:hover {
+    background-color: #FE5842;
+}
+
+.cta-bug-trackers-flex-section-2 {
+    padding: 53px;
+    @include break(1199){
+      padding: 55px 0;
+    }
+    @include break(991){
+      padding: 50px 0 40px;
+    }
+    @include break(768){
+      padding: 40px;
+    }
+    @include break(767){
+      padding: 36px 15px;
+    }
+    @include break(530){
+      padding: 30px 15px;
+    }
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-h2 {
+    margin-bottom: 12px;
+    @include break(768){
+      margin-bottom: 20px;
+    }
+    @include break(530){
+      margin-bottom: 10px;
+    }
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-h2 h2 {
+    @extend %font-2-1;
+    text-align: center;
+    color: $white;
+    max-width: 835px;
+    margin: 0 auto;
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-p {
+    margin: 0 auto;
+    text-align: center;
+    width: 598px;
+    @include break(767){
+      width: 495px;
+    }
+    @include break(530){
+      width: 92%;
+    }
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-p p {
+    @extend %font-10-1; 
+    text-align: center;
+    color: $white;
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-btn {
+    margin: 30px auto 0;
+    text-align: center;
+    @include break(991){
+      margin-top: 24px;
+    }
+    @include break(768){
+      margin-top: 22px;
+    }
+    @include break(767){
+      margin-top: 30px;
+    }
+    @include break(530){
+      margin-top: 13px;
+    }
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-btn a {
+    background-color: #FF7A68;
+    border-radius: 50px;
+    display: inline-block;
+    @extend %font-15-1;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 11px 22px;
+    color: $white;
+    margin: 0 auto;
+    @include break(991){
+      padding: 9px 25px;
+    }
+    @include break(767){
+      padding: 9px 22px;
+    }
+    @include break(530){
+      padding: 9px 17px;
+    }
+}
+.cta-bug-trackers-flex-section-2 .cta-bug-trackers-flex-btn a:hover {
+    background-color: #FE5842;
+}
+
+.cta-bug-trackers-flex-section-3 {
+    padding: 100px 0;
+    @include break(1199){
+      padding: 80px 0;
+    }
+    @include break(768){
+      padding: 30px;
+    }
+    @include break(639){
+      padding: 30px 20px;
+    }
+}
+.cta-bug-trackers-flex-section-3 .cta-bug-trackers-flex-p p {
+    @extend %font-10-1; 
+    text-align: center;
+    color: $white;
+}
+.cta-bug-trackers-flex-section-3 .cta-bug-trackers-flex-btn {
+    margin: 57px auto 0;
+    text-align: center;
+    @include break(1199){
+      margin: 30px auto 0;
+    }
+    @include break(768){
+      margin-top: 20px;
+    }
+}
+.cta-bug-trackers-flex-section-3 .cta-bug-trackers-flex-btn a {
+    background-color: #FF7A68;
+    border-radius: 14px;
+    display: inline-block;
+    @extend %font-15-1; 
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    color: $white;
+    margin: 0 auto;
+    @include break(1440){
+      padding: 15px 50px 13px;
+    }
+    @include break(1199){
+      padding: 13px 30px 12px;
+      border-radius: 10px;
+    }
+    @include break(639){
+      padding: 9px 10px 8px;
+      border-radius: 3px;
+    }
+}
+.cta-bug-trackers-flex-section-3 .cta-bug-trackers-flex-btn a:hover {
+    background-color: #FE5842;
+}
+.cta-bug-trackers-flex-section-4{
+    padding: 90px 0 100px;
+    @include break(530){
+      padding: 35px 0;
+    }
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-h2 h2{
+    @extend %font-2-1;
+    text-align: center;
+    color: $white;
+    margin-bottom: 12px;
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-p{
+    @extend %font-10-1; 
+    text-align: center;
+    color: $white;
+    margin-bottom: 30px;
+}
+.cta-bug-trackers-flex-section-4 .button-wrapper{
+    display: flex;
+    justify-content: center;
+    @include break(530){
+      flex-direction: column;
+      align-items: center;
+      height: 105px;
+      justify-content: space-between;
+    }
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn a,
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn-white a{
+    @extend %font-15-1; 
+    text-transform: uppercase;
+    border-radius: 24px;
+    transition: all .3s ease-in-out;
+
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn a{
+    color: $white;
+    background-color: #FF7A68;
+    margin-right: 24px;
+    padding: 11px 0;
+    display: block;
+    min-width: 240px;
+    @include break(991){
+      min-width: 195px;
+    }
+    @include break(530){
+      margin-right: 0;
+    }
+}
+
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn-white a{
+    color: #FF7A68;
+    background-color: #fff;
+    padding: 11px 0;
+    display: block;
+    min-width: 240px;
+    @include break(991){
+      min-width: 195px;
+    }
+    @include break(530){
+      padding: 11px 26px;
+    }
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn-white a:hover{
+    color: #fff;
+    background-color: #FF7A68;
+    transition: all .3s ease-in-out;
+}
+.cta-bug-trackers-flex-section-4 .cta-bug-trackers-flex-btn a:hover{
+    background-color: #FE5842;
+    transition: all .3s ease-in-out;
+}
+
+/*NEW DESIGN CTA*/
+.cta-bug-new-design{
+  background: none;
+  padding: 0;
+  .container{
+    background-color: #2d9dcf;
+    border-radius: 25px;
+    padding: 72px 0 82px;
+  }
+ .cta-bug-trackers-flex-btn a{
+  padding: 12px 43px;
+ }
+}
+
+.dark-style-page .cta-bug-trackers-flex-section{
+  background: none;
+  padding: 0;
+}
+.dark-style-page .section-cta-wrapper{
+  background-color: #131825;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 29px;
+  padding: 70px 0;
+  position: relative;
+  @include break(1199){
+    padding: 80px 0;
+  }
+}
+.dark-style-page .section-cta-wrapper::after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(/wp-content/themes/aqua-cloud/images/bg-cta.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: .6;
+  border-radius: 29px;
+}
+.dark-style-page .cta-bug-trackers-flex-btn{
+  position: relative;
+  z-index: 1;
+}
+.dark-style-page .cta-bug-trackers-flex-h2 h2{
+  max-width: 706px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 1;
+}
+.dark-style-page .cta-bug-trackers-flex-h2 h2 span{
+    background: linear-gradient(90deg, #BBEAFF -6.88%, #29BDFF 37.89%, #9BE8FF 121.41%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.integrations-block-help-last .cta-bug-trackers-flex-section-1 {
+  @include break(639){
+    padding: 80px 20px 40px;
+  }
+}
+
+
+.cta-new-margins{
+  padding: 0;
+  background-color: #fff;
+}
+.cta-new-margins .cta-inner{
+  background-color: #2d9dcf;
+  padding: 60px 0;
+  border-radius: 29px;
+  @include break(1199){
+    padding: 50px 0;
+  }
+  @include break(767){
+    padding: 40px 0;
+  }
+}
+
+
+.cta-inner-winner-paddings .cta-inner {
+  padding: 60px 0 60px;
+  margin: 0 auto;
+  @include break(1199) {
+  padding: 50px 0;
+  }
+  @include break(767) {
+    padding: 40px 0;
+  }
+}
+
+.cta-inner-winner-only-paddings  .cta-bug-trackers-flex-btn {
+  padding: 0;
+}
+
+.cta-inner-winner, .cta-inner-winner-only-paddings{
+  @include break(575) {
+    padding: 40px 0px !important;
+    border-radius: 12px !important;
+    background-image: none !important;
+  }
+}
+.cta-inner-winner {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url(/assets/images/winner_bg.webp);
+  @include break(1399) {
+    background-size: contain; 
+  }
+}
+.cta-inner-winner .details-competition-icon-wrapper img {
+  @include break(575) {
+  max-width: 133px;
+  margin-bottom: 0;
+  }
+}
+.cta-inner-winner .details-competition-icon-wrapper img {
+  max-width: 163px;
+  margin: 0;
+  @include break(1199) {
+  max-width: 138px; 
+  }
+  @include break(991) {
+  max-width: 119px; 
+  }
+  @include break(575) {
+  max-width: 133px; 
+  }
+}
+.cta-new-margins-bottom {
+  margin-bottom: 40px;
+  @include break(1399) {
+    margin-bottom: 90px;
+  }
+  @include break(1199) {
+    margin-bottom: 71px;
+  }
+  @include break(991) {
+    margin-bottom: 80px;
+  }
+  @include break(767) {
+    margin-bottom: 80px;
+  }
+  @include break(575) {
+    margin-bottom: 40px;
+  }
+}
+
+.details-competition-winner h2 {
+  color: #8DDCFF;
+  @extend %font-2-1;
+  @include break(575) {
+    margin-bottom: 14px;
+  }
+  
+}
+.cta-inner-winner .cta-bug-trackers-flex-btn a, .cta-inner-winner-only-paddings .cta-bug-trackers-flex-btn a{
+  @include break(575) {
+    width: 100%;
+  }
+}
+
+
+.cta-new-margins .cta-bug-trackers-flex-h2{
+  margin-bottom: 20px;
+  @include break(991){
+    margin-bottom: 14px;
+  }
+  @include break(530){
+    padding: 0 10px;
+  }
+}
+
+.cta-new-margins .cta-bug-trackers-flex-btn{
+  margin: 50px auto 0;
+  @include break(991){
+    margin: 30px auto 0;
+  }
+}
+
+.cta-new-margins .cta-bug-trackers-flex-btn a{
+  padding: 12px 47px;
+  @include break(1199){
+    padding: 8px 47px;
+  }
+  @include break(991){
+    padding: 10px 47px;
+  }
+}

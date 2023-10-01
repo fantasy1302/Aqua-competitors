@@ -1,0 +1,235 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+
+@font-face {
+  font-family: 'Noah Text';
+  src: url('/assets/fonts/noah-text-medium.woff2') format('woff2'),
+  url('/assets/fonts/noah-text-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noah Text';
+  src: url('/assets/fonts/noah-text-extra-bold.woff2') format('woff2'),
+  url('/assets/fonts/noah-text-extra-bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Noah Text';
+  font-weight: normal;
+}
+
+
+.section-margins-standart {
+  margin: 150px 0px;
+}
+@media only screen and (max-width: 991px) {
+  .section-margins-standart {
+    margin: 120px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .section-margins-standart {
+    margin: 70px 0px;
+  }
+} 
+
+.competitors {
+ margin-top: 44px;
+ @include break(991) {
+ margin-top: 0;
+ }
+}
+
+.competitors-section {
+ background-size: cover;
+ background-repeat: no-repeat;
+ @include break(991) {
+  background-color: $brightBlue;
+}
+ @include break(767) {
+  padding: 0;
+}
+}
+
+.competitors-section > .container > .row > * {
+  @include break(991) {
+    padding: 0;
+  }
+}
+
+.competitors-container {
+ background-image: url('/assets/images/hero_bg.webp');
+ border-radius: 50px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ padding: 74px 145px 169px;
+ background-color: $brightBlue;
+ @include break(1399) {
+  border-radius: 20px;
+  padding: 75px 165px 191px;
+}
+ @include break(1199) {
+  border-radius: 29px;
+  padding: 86px 91px 191px;
+  background-size: contain;
+  background-position: bottom;
+}
+@include break(991) {
+  padding: 46px 54px 134px;
+  background-color: transparent;
+  margin-top: 46px;
+}
+@include break(767) {
+  padding: 47px 20px 154px;
+  margin-top: 0px;
+}
+@include break(575) {
+  padding: 43px 0px 194px;
+}
+}
+
+.competitors-description br {
+  display: none;
+  @include break(767) {
+    display: block;
+  }
+}
+
+.competitors-info-section {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.competitors-icons {
+ margin-bottom: 68px;
+ display: flex;
+ justify-content: center;
+ & span {
+ color: #8DDCFF;
+ font-family: Noah Text;
+ font-size: 23.611px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 36.111px;
+ letter-spacing: 0.236px; 
+ margin:0 22px;
+}
+ @include break(1399) {
+ margin-bottom: 50px;
+}
+ @include break(767) {
+ margin-bottom: 30px;
+}
+}
+
+.competitors-icon-wrapper {
+ & img {
+ height: 37px;
+ width: auto;
+ max-width: 325px;
+ @include break (1399) {
+ height: 32px;
+ max-width: 284px;
+}
+ @include break(1199) {
+ max-width: 265px;
+ height: 30px;
+}
+ @include break(991) {
+ max-width: 219px;
+ height: 25px;
+}
+@include break(575) {
+  max-width: 191px;
+  height: 22px;
+}
+}
+}
+
+.competitors-title {
+ @extend %font-1-1;
+ color: $white;
+ text-align: center;
+ max-width: 1006px;
+ margin-bottom: 20px;
+ @include break(1399) {
+  max-width: 755px;
+}
+@include break(991) {
+ margin-bottom: 14px;
+ max-width: 580px;
+}
+@include break(767) {
+ max-width: 474px;
+}
+}
+
+.competitors-title-marked {
+ position: relative;
+ display: inline-block;
+ width: 74px;
+ @include break(1199) {
+ width: 61px;
+}
+ @include break(991) {
+  width: 48px;
+}
+ @include break(767) {
+  width: 41px;
+}
+ &::after {
+ position: absolute;
+ background-image: url(/assets/images/competitors-title-marked.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 69px;
+ height: 64px;
+ top: 0;
+ content: "";
+ left: 0;
+ right: 0;
+ background-position: center;
+ @include break(1399) {
+  width: 67px;
+  height: 63px;
+ }
+ @include break(1199) {
+  width: 100%;
+  height: 100%;
+}
+}
+}
+
+.competitors-description {
+ @extend %font-10-1;
+ color: $white;
+ text-align:center;
+ max-width: 786px;
+ margin-bottom:4px;
+ @include break (1199) {
+  max-width: 651px;
+  margin-bottom:5px;
+}
+ @include break (991) {
+  max-width: 525px;
+}
+ @include break(767) {
+  max-width: 476px;
+  margin-bottom: 12px;
+}
+}
+
+.competitors-description-marked {
+ @extend %font-10-2;
+  color: $white;
+}

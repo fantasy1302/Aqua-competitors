@@ -1,0 +1,248 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.verdict-container {
+ border-radius: 20px;
+ background: $brightBlue;
+ padding: 60px 185px;
+ @include break(1399) {
+  padding: 60px 95px;
+ }
+ @include break(1199) {
+  padding: 60px 28px;
+ }
+ @include break(991) {
+  padding: 40px 36px;
+ }
+ @include break(767) {
+  padding: 40px 30px;
+ }
+ @include break(575) {
+  padding: 30px 12px;
+  border-radius: 12px;
+}
+}
+
+.verdict-section .container {
+ @include break(1199) {
+  padding: 0;
+ }
+}
+
+.verdict-section .container {
+ @include break(575) {
+  padding: 0;
+}
+}
+
+.verdict-info-header {
+ column-gap: 16px;
+ margin-bottom: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ @include break(575) {
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+}
+
+.verdict-logo-wrapper {
+ @include break(575) {
+  margin-bottom: 10px;
+}
+}
+
+.verdict-logo-wrapper img {
+ width: 38px;
+ @include break(575) { 
+  width: 25px;
+}
+}
+
+.verdict-list-container > table, .verdict-list-container-mobile > table {
+ background: white;
+ border-radius: 20px;
+ @include break(575) {
+  border-radius: 6px;
+  width: 100%;
+}
+}
+
+.verdict-list-container-mobile {
+ @include  break(575) {
+  margin-top: 10px
+};
+}
+
+.verdict-list-container table tbody td {
+ @include break(575) {
+  width: 100%;
+}
+}
+
+.verdict-list-container-mobile {
+ display: none;
+ @include break(575) {
+  display: block
+}
+}
+
+.verdict-list-container table tr {
+ display: flex;
+}
+
+.verdict-list-container table td {
+ flex: 1;
+}
+
+.verdict-item-aqua-td {
+ border-right: 1px solid #e0f1f8;
+} 
+
+.verdict-title {
+ @extend %font-2-1;
+  color:$white;
+}
+
+.verdict-description {
+ @extend %font-70-1;
+ margin-bottom: 50px;
+ color: $white;
+ @include break(767) {
+  margin-bottom: 30px;
+}
+}
+
+.verdict-competitor-header-td {
+ @include break(575) {
+  display:none;
+}
+}
+
+.verdict-aqua-header {
+padding: 15px 0 14px 0;
+ display: flex;
+ justify-content: center;
+}
+
+.verdict-item-aqua, .verdict-item-competitor, .verdict-item-competitor-mobile {
+ padding: 20px 72px 22px 56px;
+ color: #5b7088;
+ position: relative;
+ display: block;
+ @include break(575) {
+  padding: 14px 32px 16px 52px;
+}
+}
+
+.details-verdict-icon-wrapper {
+ position: relative;
+}
+
+.verdict-item-competitor-mobile::before {
+ position: absolute;
+ background-image: url(/wp-content/themes/aqua-cloud/images/check_disallow.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 16px;
+ height: 16px;
+ top: 24px;
+ content: "";
+ left: 25px;
+ right: 0;
+ background-position: 50%;
+ @include break(575) {
+ width: 12px;
+ left: 30px;
+ height: 12px;
+ top: 19px;
+}
+}
+
+.verdict-list-container-mobile table tr:not(:last-of-type), .verdict-list-container table tr:not(:last-of-type) {
+ border-bottom: 1px solid #e0f1f8;
+}
+
+.verdict-aqua-logo-wrapper {
+ @include break(575) {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+}
+
+.verdict-competitor-logo-wrapper-mobile {
+  @include break(575) {
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.verdict {
+  @include break(991) {
+    scroll-margin-top: 6em;
+  }
+}
+
+.verdict-aqua-logo-wrapper img {
+  @include break(575) {
+    margin: 12px 0;
+    width: 77px;
+    height: 21px;
+  }
+}
+
+.verdict-competitor-logo-wrapper-mobile img {
+  @include break(575) {
+    width: 73px;
+    height: 18px;
+  }
+}
+
+.verdict-aqua-header, .verdict-competitor-header {
+ padding: 15px 0;
+ display: flex;
+ justify-content: center;
+@include break(575) {
+  padding: 0;
+}
+}
+
+.verdict {
+  margin-bottom: 50px;
+  @include break(991) {
+    margin-bottom: 30px
+  }
+}
+
+.verdict-item-aqua {
+ @extend %font-10-1;
+ color:$lynch;
+ position: relative;
+}
+
+.verdict-item-competitor-td {
+ display: flex;
+ width: 100%;
+ align-items: flex-start;
+ @include break(575) {
+  display: none;
+}
+}
+
+.verdict-aqua-header-td  {
+ background-color: #e0f1f8;
+ border-top-left-radius: 18px;
+ @include break(575) {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+}
+
+.verdict-header-row {
+ border-bottom: 1px solid #e0f1f8;
+}

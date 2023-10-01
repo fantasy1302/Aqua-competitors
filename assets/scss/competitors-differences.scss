@@ -1,0 +1,101 @@
+@import "settings/color.scss";
+@import "settings/mixin.scss";
+@import "settings/fonts-and-botton.scss";
+@import "settings/flex.scss";
+
+.key-differences-info {
+ display: flex;
+ justify-content: center;
+}
+
+.key-differences-title-wrapper {
+ max-width: 708px;
+ margin-bottom: 100px;
+ @include break(1399) {
+  max-width: 712px;
+ }
+ @include break(1199) {
+  max-width: 658px;
+ }
+ @include break(991) {
+  max-width: 500px;
+  margin-bottom: 50px;
+}
+@include break(767) {
+  max-width: 516px;
+}
+@include break(575) {
+  max-width: 100%;
+}
+}
+
+.key-differences-title {
+ text-align: center;
+ color: $haliteBlue;
+ @extend %font-2-1;
+}
+
+.key-differences-cards {
+ display: flex;
+ column-gap: 18px;
+ @include break (1199) {
+  column-gap: 10px;
+}
+ @include break (991) {
+  column-gap: 18px;
+}
+ @include break (767) {
+  column-gap: 12px;
+}
+ @include break (575) {
+  flex-direction: column;
+  column-gap: 0px;
+  row-gap: 12px;
+}
+}
+
+.key-differences-card {
+ flex-basis: 33.3%;
+ padding: 50px;
+ border-radius: 20px;
+ border: 2px solid #E0F1F8;
+ display: block;
+ @include break (1199) {
+  padding: 30px;
+  border-radius: 18px;
+ }
+ @include break (991) {
+  padding: 20px 30px;
+  border-radius: 10px;
+}
+ @include break (767) {
+  padding: 20px 10px;
+}
+@include break (575) {
+  padding: 20px 30px;
+}
+}
+
+.key-differences-image-container {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 24px;
+ @include break(991) {
+  margin-bottom: 14px;
+}
+}
+
+.key-differences-image-container img {
+  width: 40px;
+  height: 40px;
+ @include break(991) {
+  width: 30px;
+  height: 30px;
+}
+}
+
+.key-differences-description {
+ text-align: center;
+ @extend %font-61-1;
+ color: $lynch;
+}
