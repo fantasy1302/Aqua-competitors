@@ -403,7 +403,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(/wp-content/themes/aqua-cloud/images/bg-cta.png);
+  background-image: url(../images/bg-cta.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
@@ -478,7 +478,7 @@
 .cta-inner-winner {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image:url(/assets/images/winner_bg.webp);
+  background-image:url(../images/winner_bg.webp);
   @include break(1399) {
     background-size: contain; 
   }

@@ -289,7 +289,7 @@
 	position: relative;
 	&::after {
 		position: absolute;
-		background-image: url(/assets/images/Arrow_down.svg);
+		background-image: url(../images/Arrow_down.svg);
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 10px;
@@ -506,7 +506,7 @@
 
 .details-list-item-single-line .details-list-header-item::before {
 	position: absolute;
-	background-image: url(/assets/images/check_allow.svg);
+	background-image: url(../images/check_allow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -556,7 +556,7 @@
 
 .details-list-header-item::before {
 	position: absolute;
-	background-image: url(/assets/images/check_allow.svg);
+	background-image: url(../images/check_allow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -617,7 +617,7 @@
 	margin-bottom: 50px;
 	&::before {
 		position: absolute;
-		background-image: url(/assets/images/Arrow_tie.png);
+		background-image: url(../images/Arrow_tie.png);
 		background-size: cover;
 		background-repeat: no-repeat;
 		width: 373px;
@@ -669,7 +669,7 @@
 
 .details-verdict-icon-wrapper::before {
 	position: absolute;
-	background-image: url(/assets/images/Arrow_aqua.png);
+	background-image: url(../images/Arrow_aqua.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 39px;
@@ -706,7 +706,7 @@
 
 .details-item-aqua::before {
 	position: absolute;
-	background-image: url(/assets/images/check_allow.svg);
+	background-image: url(../images/check_allow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -736,7 +736,7 @@
 .details-item-competitor::before,
 .details-item-competitor-mobile::before {
 	position: absolute;
-	background-image: url(/assets/images/check_disallow.svg);
+	background-image: url(../images/check_disallow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -768,7 +768,7 @@
 
 .details-item-aqua-on-competitor::before {
 	position: absolute;
-	background-image: url(/assets/images/check_allow.svg);
+	background-image: url(../images/check_allow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -802,7 +802,7 @@
 
 .details-item-competitor-on-aqua::before {
 	position: absolute;
-	background-image: url(/assets/images/check_disallow.svg);
+	background-image: url(../images/check_disallow.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -833,7 +833,7 @@
 
 .details-item-exclamation::before {
 	position: absolute;
-	background-image: url(/assets/images/details_exlam.svg);
+	background-image: url(../images/details_exlam.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 16px;
@@ -879,7 +879,7 @@
 
 .details-standards-opened::after {
 	position: absolute;
-	background-image: url(/assets/images/Arrow_down.svg);
+	background-image: url(../images/Arrow_down.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 10px;
@@ -1037,7 +1037,7 @@ position: relative;
 
 .details-content-list-item p::before {
 	position: absolute;
-	background-image: url(/assets/images/list_eclipse.svg);
+	background-image: url(../images/list_eclipse.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 9px;

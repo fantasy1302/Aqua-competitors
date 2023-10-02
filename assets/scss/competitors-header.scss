@@ -6,8 +6,8 @@
 
 @font-face {
   font-family: 'Noah Text';
-  src: url('/assets/fonts/noah-text-medium.woff2') format('woff2'),
-  url('/assets/fonts/noah-text-medium.woff') format('woff');
+  src: url('../fonts/noah-text-medium.woff2') format('woff2'),
+  url('../fonts/noah-text-medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -15,8 +15,8 @@
 
 @font-face {
   font-family: 'Noah Text';
-  src: url('/assets/fonts/noah-text-extra-bold.woff2') format('woff2'),
-  url('/assets/fonts/noah-text-extra-bold.woff') format('woff');
+  src: url('../fonts/noah-text-extra-bold.woff2') format('woff2'),
+  url('../fonts/noah-text-extra-bold.woff') format('woff');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -67,7 +67,7 @@ body {
 }
 
 .competitors-container {
- background-image: url('/assets/images/hero_bg.webp');
+ background-image: url('../images/hero_bg.webp');
  border-radius: 50px;
  background-size: cover;
  background-repeat: no-repeat;
@@ -189,7 +189,7 @@ body {
 }
  &::after {
  position: absolute;
- background-image: url(/assets/images/competitors-title-marked.png);
+ background-image: url(../images/competitors-title-marked.png);
  background-size: cover;
  background-repeat: no-repeat;
  width: 69px;
