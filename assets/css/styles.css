@@ -665,7 +665,7 @@
 }
 .details-standards::after {
   position: absolute;
-  background-image: url(/assets/images/Arrow_down.svg);
+  background-image: url(../images/Arrow_down.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 10px;
@@ -932,7 +932,7 @@
 
 .details-list-item-single-line .details-list-header-item::before {
   position: absolute;
-  background-image: url(/assets/images/check_allow.svg);
+  background-image: url(../images/check_allow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -990,7 +990,7 @@
 
 .details-list-header-item::before {
   position: absolute;
-  background-image: url(/assets/images/check_allow.svg);
+  background-image: url(../images/check_allow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1057,7 +1057,7 @@
 }
 .details-verdict-icon-wrapper-tie::before {
   position: absolute;
-  background-image: url(/assets/images/Arrow_tie.png);
+  background-image: url(../images/Arrow_tie.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 373px;
@@ -1114,7 +1114,7 @@
 
 .details-verdict-icon-wrapper::before {
   position: absolute;
-  background-image: url(/assets/images/Arrow_aqua.png);
+  background-image: url(../images/Arrow_aqua.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 39px;
@@ -1161,7 +1161,7 @@
 
 .details-item-aqua::before {
   position: absolute;
-  background-image: url(/assets/images/check_allow.svg);
+  background-image: url(../images/check_allow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1197,7 +1197,7 @@
 .details-item-competitor::before,
 .details-item-competitor-mobile::before {
   position: absolute;
-  background-image: url(/assets/images/check_disallow.svg);
+  background-image: url(../images/check_disallow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1241,7 +1241,7 @@
 
 .details-item-aqua-on-competitor::before {
   position: absolute;
-  background-image: url(/assets/images/check_allow.svg);
+  background-image: url(../images/check_allow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1283,7 +1283,7 @@
 
 .details-item-competitor-on-aqua::before {
   position: absolute;
-  background-image: url(/assets/images/check_disallow.svg);
+  background-image: url(../images/check_disallow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1320,7 +1320,7 @@
 
 .details-item-exclamation::before {
   position: absolute;
-  background-image: url(/assets/images/details_exlam.svg);
+  background-image: url(../images/details_exlam.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -1378,7 +1378,7 @@
 
 .details-standards-opened::after {
   position: absolute;
-  background-image: url(/assets/images/Arrow_down.svg);
+  background-image: url(../images/Arrow_down.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 10px;
@@ -1557,7 +1557,7 @@
 
 .details-content-list-item p::before {
   position: absolute;
-  background-image: url(/assets/images/list_eclipse.svg);
+  background-image: url(../images/list_eclipse.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 9px;
@@ -2307,7 +2307,7 @@
 
 .verdict-item-competitor-mobile::before {
   position: absolute;
-  background-image: url(/wp-content/themes/aqua-cloud/images/check_disallow.svg);
+  background-image: url(../images/check_disallow.svg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 16px;
@@ -2476,14 +2476,14 @@
 
 @font-face {
   font-family: "Noah Text";
-  src: url("/assets/fonts/noah-text-medium.woff2") format("woff2"), url("/assets/fonts/noah-text-medium.woff") format("woff");
+  src: url("../fonts/noah-text-medium.woff2") format("woff2"), url("../fonts/noah-text-medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Noah Text";
-  src: url("/assets/fonts/noah-text-extra-bold.woff2") format("woff2"), url("/assets/fonts/noah-text-extra-bold.woff") format("woff");
+  src: url("../fonts/noah-text-extra-bold.woff2") format("woff2"), url("../fonts/noah-text-extra-bold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
@@ -2538,7 +2538,7 @@ body {
 }
 
 .competitors-container {
-  background-image: url("/assets/images/hero_bg.webp");
+  background-image: url("../images/hero_bg.webp");
   border-radius: 50px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2694,7 +2694,7 @@ body {
 }
 .competitors-title-marked::after {
   position: absolute;
-  background-image: url(/assets/images/competitors-title-marked.png);
+  background-image: url(../images/competitors-title-marked.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 69px;
@@ -3864,7 +3864,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(/wp-content/themes/aqua-cloud/images/bg-cta.png);
+  background-image: url(../images/bg-cta.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 0;
@@ -3950,7 +3950,7 @@ a {
 .cta-inner-winner {
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/assets/images/winner_bg.webp);
+  background-image: url(../images/winner_bg.webp);
 }
 @media only screen and (max-width: 1399px) {
   .cta-inner-winner {
